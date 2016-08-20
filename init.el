@@ -1,5 +1,11 @@
 (require 'package)
 
+(unless (package-installed-p 'use-package)
+  (package-install 'use-package))
+
+(require 'use-package)
+(setq use-package-verbose t)
+
 ;; Always load newest byte code
 (setq load-prefer-newer t)
 
