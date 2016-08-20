@@ -1,1 +1,1 @@
-Personal config, based on [bbatsov](https://github.com/bbatsov/emacs.d)
+Personal config, based on [bbatsov](https://github.com/bbatsov/emacs.d) config
